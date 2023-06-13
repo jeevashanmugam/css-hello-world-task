@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Hello World Tab</title>
+	<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+<style>
+	*{
+		margin:0;
+		padding:0;
+		box-sizing:border-box;
+	}
+	.main{
+	width:90%;
+	margin:50px auto;
+	}
+	.container{
+    width: 500px;
+    margin: 0 auto;
+	margin-top:20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 2px 5px gray;
+    padding: 15px;
+	}
+	.container i, .container_1 i, .container_2 i, .container_3 i{
+	    font-size: 25px;
+	}
+	.container_1{
+    width: 500px;
+    margin: 0 auto;
+	margin-top:20px;
+    display: flex;
+	background-color:#0D6EFD;
+	color:white;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 2px 5px gray;
+    padding: 15px;
+	}
+	
+	.container_3{
+    box-shadow: 2px 2px 5px gray;
+    padding: 15px;
+    width: 500px;
+    margin: 0 auto;
+	margin-top:20px;
+	
+	}
+	.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	}
+	.container_3 hr {
+	margin-top:10px;
+	}
+	.container_3 a:nth-child(3) {
+	text-decoration:none;
+	background-color:#0D6EFD;
+	color:white;
+	display:inline-block;
+	padding:10px;
+	border-radius:5px;
+	margin-top:10px;
+	margin-right:10px;
+	}
+	.container_3 a:nth-child(4) {
+	text-decoration:none;
+	background-color:#808080;
+	color:white;
+	display:inline-block;
+	padding:10px;
+	border-radius:5px;
+	margin-top:10px;
+	}
+</style>
+
+<body>
+
+<section class="main">
+
+	<div class="container">
+		<p> Hello, world This is a toast message.</p>
+		<i class="fa-solid fa-xmark"></i>
+	</div>
+	
+	<div class="container_1">
+		<p> Hello, world This is a toast message.</p>
+		<i class="fa-solid fa-xmark"></i>
+	</div>
+	
+	<div class="container_3">
+		<div class="content">
+			<p> Hello, world This is a toast message.</p>
+			<i class="fa-solid fa-xmark"></i>
+		</div>
+		<hr>
+		<a href="#" >Take action</a>
+		<a href="#" >Close</a>
+		
+	</div>
+
+</section>
+
+</body>
+</html>
